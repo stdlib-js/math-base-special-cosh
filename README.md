@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Compute the [hyperbolic cosine][hyperbolic-cosine] of a number.
+> Compute the [hyperbolic cosine][hyperbolic-cosine] of a double-precision floating-point number.
 
 <section class="installation">
 
@@ -52,7 +52,7 @@ var cosh = require( '@stdlib/math-base-special-cosh' );
 
 #### cosh( x )
 
-Computes the [hyperbolic cosine][hyperbolic-cosine] of `x`.
+Computes the [hyperbolic cosine][hyperbolic-cosine] of a double-precision floating-point number `x`.
 
 ```javascript
 var v = cosh( 0.0 );
@@ -125,7 +125,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 #### stdlib_base_cosh( x )
 
-Computes the [hyperbolic cosine][hyperbolic-cosine] of a number.
+Computes the [hyperbolic cosine][hyperbolic-cosine] of a double-precision floating-point number.
 
 ```c
 double out = stdlib_base_cosh( 2.0 );
@@ -166,7 +166,7 @@ double stdlib_base_cosh( const double x );
 #include <stdio.h>
 
 int main() {
-    double x[] = { -5.0, -3.89, -2.78, -1.67, -0.56, 0.56, 1.67, 2.78, 3.89, 5.0 };
+    const double x[] = { -5.0, -3.89, -2.78, -1.67, -0.56, 0.56, 1.67, 2.78, 3.89, 5.0 };
     double v;
     int i;
     
