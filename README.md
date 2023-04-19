@@ -165,11 +165,11 @@ double stdlib_base_cosh( const double x );
 #include "stdlib/math/base/special/cosh.h"
 #include <stdio.h>
 
-int main() {
+int main( void ) {
     const double x[] = { -5.0, -3.89, -2.78, -1.67, -0.56, 0.56, 1.67, 2.78, 3.89, 5.0 };
+    
     double v;
     int i;
-    
     for ( i = 0; i < 10; i++ ) {
         v = stdlib_base_cosh( x[ i ] );
         printf( "cosh(%lf) = %lf\n", x[ i ], v );
@@ -249,7 +249,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
