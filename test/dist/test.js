@@ -31,9 +31,9 @@ var cosh = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..xtures/julia/data.json' );
-var tiny = require( './../..xtures/julia/tiny.json' );
-var large = require( './../..xtures/julia/large.json' );
+var data = require( './../fixtures/julia/data.json' );
+var tiny = require( './../fixtures/julia/tiny.json' );
+var large = require( './../fixtures/julia/large.json' );
 
 
 // TESTS //
