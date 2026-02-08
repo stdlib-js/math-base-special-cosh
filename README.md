@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosh@deno/mod.js';
+import cosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosh@v0.2.4-deno/mod.js';
 ```
 
 #### cosh( x )
@@ -79,7 +79,7 @@ v = cosh( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import cosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosh@deno/mod.js';
+import cosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosh@v0.2.4-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
